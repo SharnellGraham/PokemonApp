@@ -5,3 +5,8 @@ const PokemonThumbnail = ({id,name,image,type,height,weight,stat1,stat2,stat3,st
     bs4,bs5,bs6}) => {
     const style = `thumb-container ${type}`
     const [show,setShow] = useState(false)
+    return (
+        <div className ={style}>
+            <div className="number">
+                <small>#0{id}</small>
+            </div>
