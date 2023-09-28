@@ -32,3 +32,9 @@ const PokemonThumbnail = ({id,name,image,type,height,weight,stat1,stat2,stat3,st
                  /> :<></>}
                 
             </div>
+
+            </div>
+    )
+}
+
+export default PokemonThumbnail
