@@ -36,3 +36,13 @@ code {
   
 
 }
+@keyframes text{
+  0%{
+    width: 0ch;
+    
+  }
+  50%{
+    width:15ch;
+    color:rgb(218, 55, 5);
+  }
+}
