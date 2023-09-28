@@ -18,3 +18,21 @@ code {
   font-family: 'Satisfy', cursive;
   
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3rem 1rem;
+}
+.app-container h1{
+  width: 0ch;
+  color: rgb(38, 16, 236);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: text 4s steps(15) infinite alternate;
+  
+
+}
